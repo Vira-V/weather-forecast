@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #448aff;
+}
+.container-fluid{
+    width: 410px;
+    margin: 50px auto;
+    padding: 10px;
+}
+.inputs{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+.inputs input[type="text"]{
+    height: 3.5rem;
+    width: 20rem;
+    background-color: #212121;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 2px;
+    margin-right: 4px;
+    padding: 10px;
+}
+.inputs input[type="submit"]{
+    height: 3.2rem;
+    width: 6.5rem;
+    background-color: #0a67ca;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+.inputs input[type="submit"]:hover{
+    background-color: #448aff;
+}
+.display{
+    text-align: center;
+    width: 400px;
+    color: #16a864;
+}
+.wrapper{
+    margin: 0 9rem;
+    background-color: white;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+.wrapper h2{
+    padding: 5px 0;
+    background: #0548b5;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.wrapper p{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size: 23px;
+}
+.wrapper p span{
+    color: #90006e;
+    font-size: 25px;
+}
+.wrapper h2 span{
+    font-size: 26px;
+    color: #9beefb;
+}
